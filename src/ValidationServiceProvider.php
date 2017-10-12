@@ -1,6 +1,6 @@
 <?php
 
-namespace Kai\Validation;
+namespace Kaiwh\Validation;
 
 use Validator;
 
