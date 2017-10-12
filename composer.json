@@ -1,0 +1,24 @@
+{
+    "name": "kaiwh/laravel-validation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaiwen",
+            "email": "test@test.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kaiwh\\Validation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kaiwh\\Validation\\ValidationServiceProvider"
+            ]
+        }
+    }
+}
